@@ -1,11 +1,6 @@
 import './App.css';
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch
-} from 'react-router-dom';
+// import React, {useState, useEffect} from 'react'
+import {BrowserRouter as Router,Route,Link,Switch} from 'react-router-dom';
 
 
 const App = () => {
@@ -21,9 +16,8 @@ const App = () => {
         <Switch>
         <Route exact path="/"/>
           <h1>Welcome tu your Contacts App</h1>
-          <h2>Please Log in</h2>
         <Route path="/contacts"/>
-          <H1>Here are your Contacts</H1>
+          <h1>Here are your Contacts</h1>
         <Route path="/newcontact"/>
           <h1>Create a new Contact</h1>
         </Switch>
